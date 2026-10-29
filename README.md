@@ -12,7 +12,7 @@ Run currency tests with `node tests/currency.test.mjs`.
 
 - `index.html` and `en/index.html`: content, contacts and projects. Keep both languages in sync.
 - Prices are preliminary: RUB 40,000 / 25,000 / 3,000. Update both displayed values and English `data-rub` attributes.
-- Replace the `.portrait` placeholder with a real photograph.
+- `assets/nikita-ilinov.jpg` is the supplied original photograph (960 × 1280), copied without retouching or re-encoding. Both languages use it with descriptive alt text. The full photo retains its 3:4 aspect ratio without cropping.
 - Telegram is linked to https://t.me/Nikita_Ilinov in both languages.
 - `assets/style.css`: responsive layout, keyboard focus and reduced-motion support.
 - Oplement screenshots illustrate the author's layout implementation from a supplied Figma design.
@@ -33,7 +33,7 @@ Prepared for https://nikitailinov18.github.io/.
 In repository Settings → Pages, select **Deploy from a branch**, branch **main**, folder **/(root)** when ready to publish.
 The `.nojekyll` file disables Jekyll processing. The local server and tests are not needed to serve the site.
 
-Photo and final prices are still to be supplied.
+Final prices are still to be confirmed.
 
 ## Additional public work
 
