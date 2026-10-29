@@ -13,7 +13,7 @@ Run currency tests with `node tests/currency.test.mjs`.
 - `index.html` and `en/index.html`: content, contacts and projects. Keep both languages in sync.
 - Prices are preliminary: RUB 40,000 / 25,000 / 3,000. Update both displayed values and English `data-rub` attributes.
 - Replace the `.portrait` placeholder with a real photograph.
-- Replace the inactive Telegram placeholder once a contact link is available.
+- Telegram is linked to https://t.me/Nikita_Ilinov in both languages.
 - `assets/style.css`: responsive layout, keyboard focus and reduced-motion support.
 - Oplement screenshots illustrate the author's layout implementation from a supplied Figma design.
 
@@ -33,4 +33,21 @@ Prepared for https://nikitailinov18.github.io/.
 In repository Settings → Pages, select **Deploy from a branch**, branch **main**, folder **/(root)** when ready to publish.
 The `.nojekyll` file disables Jekyll processing. The local server and tests are not needed to serve the site.
 
-Photo, Telegram link and final prices are still to be supplied. This repository contains the first draft.
+Photo and final prices are still to be supplied.
+
+## Additional public work
+
+Four demos are shown below Oplement in a responsive two-column grid (one column on small screens). Screenshots are of the actual public pages. New descriptions identify the visible interface and stack, without claiming a commissioned project, Figma authorship or a working booking backend.
+
+| Project | Live page | Public source |
+| --- | --- | --- |
+| Сосны / Sosny | https://nikitailinov18.github.io/DomBrony/ | https://github.com/NikitaIlinov18/DomBrony |
+| Дом у озера / House by the Lake | https://nikitailinov18.github.io/DomOzera/ | https://github.com/NikitaIlinov18/DomOzera |
+| Coca | https://nikitailinov18.github.io/coca/ | https://github.com/NikitaIlinov18/coca |
+| Wake & bake (practice project) | https://nikitailinov18.github.io/homework/wake-bake/index.html | https://github.com/NikitaIlinov18/homework/tree/main/wake-bake |
+
+Verified 2026-10-29: public repository list (`private:false`, `has_pages:true`), latest successful deployment URLs for the containing repositories, and live HTTP 200 for the listed pages. Coca's public package.json confirms Vite, Sass and Swiper; HTML and linked scripts confirm the other displayed technologies. Only public resources were inspected.
+
+The older `portfolio` repository contains placeholder/example.com case studies; those were not reused. Its index2/index3 are alternative portfolios and brony.html is another country-house prototype. `Git-GitHub` has no Pages deployment. `homework/WindowHouuse/index.html` is another live practice page; the selected grid uses Wake & bake for variety instead of every exercise.
+
+GitHub API verification used Context7's `/websites/github_en_rest`, then unauthenticated public API requests: [deployment documentation](https://docs.github.com/en/rest/deployments/deployments), [status documentation](https://docs.github.com/en/rest/deployments/statuses). Visual verification is handled separately from source/HTTP checks.
